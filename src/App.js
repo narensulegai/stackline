@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import './App.css';
 import {useDispatch, useSelector} from "react-redux";
-import {fetchRetailSalesAsync, selectRetailSales} from "./features/counter/counterSlice";
+import {fetchRetailSalesAsync, selectRetailSales} from "./features/retailSales/retailSalesSlice";
 import LeftPanel from "./components/LeftPanel";
 import RetailSalesTable from "./components/RetailSalesTable";
 
